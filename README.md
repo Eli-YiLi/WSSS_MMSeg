@@ -2,12 +2,10 @@
 
 ### Introduction
 
-This is a PyTorch implementation of [Pseudo-mask Matters in Weakly-supervised Semantic Segmentation](https://arxiv.org/pdf/.pdf).(ICCV2021).
+This is a PyTorch implementation of [Pseudo-mask Matters in Weakly-supervised Semantic Segmentation](https://arxiv.org/pdf/2108.12995.pdf).(ICCV2021).
 
 In this paper, we propose Coefficient of Variation Smoothing and Proportional Pseudo-mask Generation to generate high quality pseudo-mask in classification part.
 In segmentation part, we propose Pretended Under-Fitting strategy and Cyclic Pseudo-mask for better utilization of pseudo-mask.
-
-[//]:<If you use our code in your research, please cite:>
 
 #### Data Preparation
 1. Download VOC12 [OneDrive](https://1drv.ms/u/s!Agn5nXKXMkK5aigB0g238YxuTxs?e=FjGaBI), [BaiduYun](https://pan.baidu.com/s/1GL3zXZuapuXmH9E7Xy8-Fg)
