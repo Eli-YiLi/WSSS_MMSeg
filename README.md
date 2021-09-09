@@ -25,7 +25,7 @@ In segmentation part, we propose Pretended Under-Fitting strategy and Cyclic Pse
     ln -s [path to your voc pseudo-mask] voc12/VOC2012/ppmg
     ln -s [path to your coco pseudo-mask] coco2014/voc_format/ppmg
 
-    (install mmsegmentation and mmcv(our version is 1.1.4) as MMSegmentation part)
+    (install mmsegmentation(our version is 0.8.0) and mmcv(our version is 1.1.4) as MMSegmentation part)
 
     (train and val, slurm)
     bash tools/run_wsss.sh [Partition] [Dataset] [Architecture]
