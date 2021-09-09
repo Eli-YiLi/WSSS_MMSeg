@@ -36,10 +36,13 @@ elif [ ${DATASET} == coco14 ]
 then
     if [ ${ARCH} == res38 ]
     then
-        bash tools/slurm_train.sh ${PARTITION} python configs/pspnet_wsss/pspnet_wres38-d8_40kx32_coco.py work_dirs work_dirs/coco14_res38_pug 32
+        bash tools/slurm_train.sh ${PARTITION} python configs/pspnet_wsss/pspnet_wres38-d8_40kx32_coco.py work_dirs/coco14_res38_pug 16
     elif [ ${ARCH} == r2n ]
     then
-        bash tools/slurm_train.sh ${PARTITION} python configs/pspnet_wsss/pspnet_res2net-d8_40kx32_coco.py work_dirs work_dirs/coco14_r2n_pug 32
+        bash tools/slurm_train.sh ${PARTITION} python configs/pspnet_wsss/pspnet_res2net-d8_40kx32_coco.py work_dirs/coco14_r2n_pug 16
+    elif [ ${ARCH} == s101 ]
+    then
+        bash tools/slurm_train.sh ${PARTITION} python configs/pspnet_wsss/pspnet_scalenet101_40kx32_coco.py work_dirs/coco14_s101_pug 16
     else
         echo architecture false
     fi
