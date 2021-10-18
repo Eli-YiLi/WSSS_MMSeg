@@ -29,6 +29,12 @@ In segmentation part, we propose Pretended Under-Fitting strategy and Cyclic Pse
 
     (train and val, slurm)
     bash tools/run_wsss.sh [Partition] [Dataset] [Architecture]
+    
+#### Other Data
+1. Pseudo_masks (if you want to skip cls phase), VOC12_[OneDrive](https://onedrive.live.com/?authkey=%21ACgB0g238YxuTxs&cid=B9423297729DF909&id=B9423297729DF909%21110&parId=B9423297729DF909%21109&o=OneUp) COCO14_[BaiduYun](https://pan.baidu.com/s/1GL3zXZuapuXmH9E7Xy8-Fg)
+2. Release Weights [BaiduYun](https://pan.baidu.com/s/1GL3zXZuapuXmH9E7Xy8-Fg)
+(extract code of BaiduYun: mtci)
+
 # MMSegmentation part
 
 <div align="center">
